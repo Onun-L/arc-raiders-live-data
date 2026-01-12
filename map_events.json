@@ -11,7 +11,7 @@
   },
   "eventTypes": {
     "night-raid": {
-      "displayName": "Night Raid TEST",
+      "displayName": "Night Raid",
       "icon": "https://cdn.arctracker.io/map-events/night_raid.png",
       "translationKey": "nightRaid",
       "category": "major"
@@ -26,7 +26,7 @@
       "displayName": "Cold Snap",
       "icon": "https://cdn.arctracker.io/map-events/cold_snap.png",
       "translationKey": "coldSnap",
-      "category": "major"
+      "category": "major",
       "disabled": true
     },
     "locked-gate": {
@@ -171,8 +171,8 @@
       "minor": {
         "3": "matriarch",
         "7": "launch-tower-loot",
-        "15": "launch-tower-loot",
         "11": "prospecting-probes",
+        "15": "launch-tower-loot",
         "19": "matriarch",
         "23": "harvester"
       }
