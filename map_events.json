@@ -11,7 +11,7 @@
   },
   "eventTypes": {
     "night-raid": {
-      "displayName": "Night Raid",
+      "displayName": "Night Raid TEST",
       "icon": "https://cdn.arctracker.io/map-events/night_raid.png",
       "translationKey": "nightRaid",
       "category": "major"
