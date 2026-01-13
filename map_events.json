@@ -97,95 +97,90 @@
     "blue-gate": { "displayName": "Blue Gate" },
     "stella-montis": { "displayName": "Stella Montis" }
   },
-  "schedule": {
-    "dam-battleground": {
+  "dam-battleground": {
   "major": {
-    "2": "electromagnetic-storm",
-    "7": "night-raid",
-    "10": "electromagnetic-storm",
-    "15": "night-raid",
-    "18": "electromagnetic-storm",
+    "18": "night-raid",
+    "19": "electromagnetic-storm",
+    "20": "night-raid",
     "21": "electromagnetic-storm",
-    "23": "night-raid"
+    "22": "electromagnetic-storm",
+    "23": "night-raid",
+    "0": "electromagnetic-storm",
+    "1": "night-raid"
   },
-      "minor": {
-      "1": "lush-blooms",
-      "5": "matriarch",
-      "9": "harvester",
-      "13": "matriarch",
-      "17": "prospecting-probes",
-      "21": "harvester"
-      }
+  "minor": {
+    "22": "harvester",
+    "0": "uncovered-caches",
+    "1": "matriarch",
+    "2": "harvester",
+    "3": "matriarch",
+    "4": "husk-graveyard"
+  }
     },
     "buried-city": {
   "major": {
-    "4": "night-raid",
+    "3": "night-raid",
+    "7": "night-raid",
     "11": "night-raid",
-    "12": "night-raid",
-    "20": "night-raid",
-    "22": "night-raid"
+    "15": "night-raid",
+    "19": "night-raid",
+    "23": "night-raid"
   },
   "minor": {
-    "0": "husk-graveyard",
-    "4": "lush-blooms",
-    "8": "husk-graveyard",
-    "12": "prospecting-probes",
-    "16": "prospecting-probes",
-    "20": "lush-blooms"
+    "1": "husk-graveyard",
+    "5": "uncovered-caches",
+    "9": "husk-graveyard",
+    "13": "uncovered-caches",
+    "17": "husk-graveyard",
+    "21": "uncovered-caches"
   }
     },
     "the-spaceport": {
   "major": {
-    "0": "hidden-bunker",
-    "5": "night-raid",
-    "8": "hidden-bunker",
-    "9": "electromagnetic-storm",
-    "13": "night-raid",
-    "16": "hidden-bunker",
-    "21": "night-raid",
-    "23": "electromagnetic-storm"
+    "4": "night-raid",
+    "13": "electromagnetic-storm",
+    "21": "night-raid"
   },
   "minor": {
-    "3": "matriarch",
-    "7": "launch-tower-loot",
-    "11": "prospecting-probes",
-    "15": "launch-tower-loot",
-    "19": "matriarch",
+    "4": "matriarch",
+    "8": "launch-tower-loot",
+    "9": "hidden-bunker",
+    "12": "uncovered-caches",
+    "16": "launch-tower-loot",
+    "17": "hidden-bunker",
+    "20": "matriarch",
     "23": "harvester"
   }
     },
     "blue-gate": {
-      "major": {
-        "3": "electromagnetic-storm",
-        "6": "locked-gate",
-        "12": "night-raid",
-        "14": "electromagnetic-storm",
-        "15": "electromagnetic-storm",
-        "19": "locked-gate",
-        "22": "night-raid"
-      },
-      "minor": {
-        "2": "matriarch",
-        "5": "husk-graveyard",
-        "8": "matriarch",
-        "11": "harvester",
-        "14": "matriarch",
-        "17": "uncovered-caches",
-        "20": "harvester",
-        "23": "husk-graveyard"
-      }
+  "major": {
+    "5": "locked-gate",
+    "10": "electromagnetic-storm",
+    "14": "locked-gate",
+    "18": "night-raid",
+    "22": "locked-gate"
+  },
+  "minor": {
+    "3": "matriarch",
+    "6": "husk-graveyard",
+    "9": "matriarch",
+    "12": "harvester",
+    "15": "matriarch",
+    "18": "uncovered-caches",
+    "21": "harvester",
+    "23": "husk-graveyard"
+  }
     },
     "stella-montis": {
-      "major": {
-      "2": "night-raid",
-      "6": "night-raid",
-      "7": "night-raid",
-      "9": "night-raid",
-      "14": "night-raid",
-      "18": "night-raid",
-      "21": "night-raid"
-      },
-    "minor": {}
-    }
+  "major": {
+    "0": "night-raid",
+    "4": "night-raid",
+    "8": "night-raid",
+    "12": "night-raid",
+    "16": "night-raid",
+    "20": "night-raid"
+  },
+  "minor": {}
+}
   }
 }
