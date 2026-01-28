@@ -79,27 +79,28 @@
     "stella-montis": { "displayName": "Stella Montis" }
   },
 
-  "schedule": {
-
+    "schedule": {
     "dam-battleground": {
       "major": {
         "2": "night-raid",
-        "6": "electromagnetic-storm",
         "10": "night-raid",
-        "14": "electromagnetic-storm",
         "18": "night-raid",
+        "6": "electromagnetic-storm",
+        "14": "electromagnetic-storm",
         "22": "electromagnetic-storm"
       },
       "minor": {
         "1": "harvester",
-        "3": "lush-blooms",
-        "4": "matriarch",
         "7": "harvester",
-        "9": "lush-blooms",
         "13": "harvester",
+        "19": "harvester",
+        "3": "lush-blooms",
+        "9": "lush-blooms",
         "15": "lush-blooms",
-        "16": "matriarch",
         "21": "lush-blooms",
+        "4": "matriarch",
+        "10": "matriarch",
+        "16": "matriarch",
         "22": "matriarch"
       }
     },
@@ -115,10 +116,10 @@
       },
       "minor": {
         "0": "bird-city",
-        "4": "lush-blooms",
         "8": "bird-city",
-        "12": "lush-blooms",
         "16": "bird-city",
+        "4": "lush-blooms",
+        "12": "lush-blooms",
         "20": "lush-blooms"
       }
     },
@@ -126,41 +127,46 @@
     "the-spaceport": {
       "major": {
         "0": "electromagnetic-storm",
+        "8": "electromagnetic-storm",
+        "16": "electromagnetic-storm",
         "4": "night-raid",
-        "12": "electromagnetic-storm",
+        "12": "night-raid",
         "20": "night-raid"
       },
       "minor": {
-        "1": "launch-tower-loot",
-        "3": "matriarch",
+        "0": "harvester",
         "6": "harvester",
-        "7": "launch-tower-loot",
-        "9": "matriarch",
+        "12": "harvester",
+        "18": "harvester",
+        "1": "launch-tower-loot",
         "13": "launch-tower-loot",
-        "15": "launch-tower-loot",
-        "21": "harvester",
-        "23": "harvester"
+        "3": "matriarch",
+        "9": "matriarch",
+        "15": "matriarch",
+        "21": "matriarch"
       }
     },
 
     "blue-gate": {
       "major": {
         "1": "night-raid",
-        "5": "locked-gate",
-        "9": "electromagnetic-storm",
-        "13": "locked-gate",
         "17": "night-raid",
-        "21": "locked-gate"
+        "5": "locked-gate",
+        "13": "locked-gate",
+        "21": "locked-gate",
+        "9": "electromagnetic-storm"
       },
       "minor": {
         "2": "matriarch",
-        "5": "harvester",
-        "7": "lush-blooms",
         "8": "matriarch",
-        "11": "harvester",
         "14": "matriarch",
         "20": "matriarch",
-        "23": "harvester"
+        "5": "harvester",
+        "11": "harvester",
+        "17": "harvester",
+        "23": "harvester",
+        "7": "lush-blooms",
+        "19": "lush-blooms"
       }
     },
 
@@ -176,4 +182,5 @@
       "minor": {}
     }
   }
+
 }
