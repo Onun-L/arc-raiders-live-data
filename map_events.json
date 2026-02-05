@@ -2,13 +2,13 @@
   "_readme": {
     "description": "Map events rotation schedule for ARC Raiders",
     "format": "Times are UTC hours (0-23). All events last exactly 1 hour.",
-    "note": "Cold Snap removed. Bird City added."
+    "note": "Cold Snap removed. Bird City added as minor event."
   },
 
   "meta": {
     "version": "2026.01.21",
     "updatedAt": "2026-01-21T23:00:00Z",
-    "note": "Schedule remapped from live rotation. Bird City integrated."
+    "note": "Schedule fully remapped from live rotation. All events normalized to 1h blocks."
   },
 
   "eventTypes": {
@@ -58,16 +58,15 @@
       "translationKey": "uncoveredCaches",
       "category": "minor"
     },
+    "hidden-bunker": {
+      "displayName": "Hidden Bunker",
+      "translationKey": "hiddenBunker",
+      "category": "minor"
+    },
     "bird-city": {
       "displayName": "Bird City",
       "translationKey": "birdCity",
       "category": "minor"
-    },
-
-    "none": {
-      "displayName": "None",
-      "translationKey": "none",
-      "category": "none"
     }
   },
 
@@ -79,7 +78,8 @@
     "stella-montis": { "displayName": "Stella Montis" }
   },
 
-    "schedule": {
+  "schedule": {
+
     "dam-battleground": {
       "major": {
         "2": "night-raid",
@@ -94,14 +94,14 @@
         "7": "harvester",
         "13": "harvester",
         "19": "harvester",
-        "3": "lush-blooms",
-        "9": "lush-blooms",
-        "15": "lush-blooms",
-        "21": "lush-blooms",
+        "3": "husk-graveyard",
+        "15": "husk-graveyard",
         "4": "matriarch",
         "10": "matriarch",
         "16": "matriarch",
-        "22": "matriarch"
+        "22": "matriarch",
+        "9": "uncovered-caches",
+        "21": "uncovered-caches"
       }
     },
 
@@ -115,58 +115,67 @@
         "23": "night-raid"
       },
       "minor": {
+        "4": "husk-graveyard",
+        "20": "husk-graveyard",
+        "12": "uncovered-caches",
         "0": "bird-city",
+        "2": "bird-city",
+        "6": "bird-city",
         "8": "bird-city",
+        "10": "bird-city",
+        "14": "bird-city",
         "16": "bird-city",
-        "4": "lush-blooms",
-        "12": "lush-blooms",
-        "20": "lush-blooms"
+        "18": "bird-city",
+        "22": "bird-city"
       }
     },
 
     "the-spaceport": {
       "major": {
-        "0": "electromagnetic-storm",
-        "8": "electromagnetic-storm",
-        "16": "electromagnetic-storm",
-        "4": "night-raid",
-        "12": "night-raid",
-        "20": "night-raid"
+        "0": "night-raid",
+        "16": "night-raid",
+        "8": "electromagnetic-storm"
       },
       "minor": {
         "0": "harvester",
         "6": "harvester",
         "12": "harvester",
         "18": "harvester",
-        "1": "launch-tower-loot",
-        "13": "launch-tower-loot",
         "3": "matriarch",
         "9": "matriarch",
         "15": "matriarch",
-        "21": "matriarch"
+        "21": "matriarch",
+        "1": "hidden-bunker",
+        "4": "hidden-bunker",
+        "9": "hidden-bunker",
+        "12": "hidden-bunker",
+        "17": "hidden-bunker",
+        "20": "hidden-bunker",
+        "1": "launch-tower-loot",
+        "13": "launch-tower-loot"
       }
     },
 
     "blue-gate": {
       "major": {
-        "1": "night-raid",
-        "17": "night-raid",
-        "5": "locked-gate",
-        "13": "locked-gate",
-        "21": "locked-gate",
-        "9": "electromagnetic-storm"
+        "5": "night-raid",
+        "21": "night-raid",
+        "13": "electromagnetic-storm",
+        "1": "locked-gate",
+        "9": "locked-gate",
+        "17": "locked-gate"
       },
       "minor": {
-        "2": "matriarch",
-        "8": "matriarch",
-        "14": "matriarch",
-        "20": "matriarch",
         "5": "harvester",
         "11": "harvester",
         "17": "harvester",
         "23": "harvester",
-        "7": "lush-blooms",
-        "19": "lush-blooms"
+        "7": "husk-graveyard",
+        "2": "matriarch",
+        "8": "matriarch",
+        "14": "matriarch",
+        "20": "matriarch",
+        "19": "uncovered-caches"
       }
     },
 
@@ -182,5 +191,4 @@
       "minor": {}
     }
   }
-
 }
