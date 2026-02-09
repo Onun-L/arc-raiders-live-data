@@ -3,7 +3,7 @@
     "version": "1.1",
     "updatedAt": "2026-02-09",
     "season": "Season 2",
-    "note": "Active and upcoming weekly trials for Season 2. Trials reset follows the in-game schedule. Weeks are defined in UTC and converted locally by the app. Future Season 3 trials may coexist before Season 2 officially ends."
+    "note": "Active and upcoming weekly trials for Season 2. Trials reset follows the in-game schedule. All dates are defined in UTC and converted locally by the app. Future Season 3 trials may coexist in this file before Season 2 officially ends."
   },
 
   "weeks": [
