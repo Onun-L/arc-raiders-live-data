@@ -2,72 +2,29 @@
   "_readme": {
     "description": "Map events rotation schedule for ARC Raiders",
     "format": "Times are UTC hours (0-23). All events last exactly 1 hour.",
-    "note": "Cold Snap removed. Bird City added as minor event."
+    "note": "Cold Snap and Prospecting Probes added. Rotation updated."
   },
 
   "meta": {
-    "version": "2026.01.21",
-    "updatedAt": "2026-01-21T23:00:00Z",
-    "note": "Schedule fully remapped from live rotation. All events normalized to 1h blocks."
+    "version": "2026.01.27",
+    "updatedAt": "2026-01-27T23:00:00Z",
+    "note": "Full rotation update including Cold Snap and Prospecting Probes."
   },
 
   "eventTypes": {
-    "night-raid": {
-      "displayName": "Night Raid",
-      "translationKey": "nightRaid",
-      "category": "major"
-    },
-    "electromagnetic-storm": {
-      "displayName": "Electromagnetic Storm",
-      "translationKey": "electromagneticStorm",
-      "category": "major"
-    },
-    "locked-gate": {
-      "displayName": "Locked Gate",
-      "translationKey": "lockedGate",
-      "category": "major"
-    },
+    "night-raid": { "displayName": "Night Raid", "translationKey": "nightRaid", "category": "major" },
+    "electromagnetic-storm": { "displayName": "Electromagnetic Storm", "translationKey": "electromagneticStorm", "category": "major" },
+    "locked-gate": { "displayName": "Locked Gate", "translationKey": "lockedGate", "category": "major" },
+    "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
 
-    "matriarch": {
-      "displayName": "Matriarch",
-      "translationKey": "matriarch",
-      "category": "minor"
-    },
-    "harvester": {
-      "displayName": "Harvester",
-      "translationKey": "harvester",
-      "category": "minor"
-    },
-    "lush-blooms": {
-      "displayName": "Lush Blooms",
-      "translationKey": "lushBlooms",
-      "category": "minor"
-    },
-    "launch-tower-loot": {
-      "displayName": "Launch Tower Loot",
-      "translationKey": "launchTowerLoot",
-      "category": "minor"
-    },
-    "husk-graveyard": {
-      "displayName": "Husk Graveyard",
-      "translationKey": "huskGraveyard",
-      "category": "minor"
-    },
-    "uncovered-caches": {
-      "displayName": "Uncovered Caches",
-      "translationKey": "uncoveredCaches",
-      "category": "minor"
-    },
-    "hidden-bunker": {
-      "displayName": "Hidden Bunker",
-      "translationKey": "hiddenBunker",
-      "category": "minor"
-    },
-    "bird-city": {
-      "displayName": "Bird City",
-      "translationKey": "birdCity",
-      "category": "minor"
-    }
+    "matriarch": { "displayName": "Matriarch", "translationKey": "matriarch", "category": "minor" },
+    "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
+    "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
+    "uncovered-caches": { "displayName": "Uncovered Caches", "translationKey": "uncoveredCaches", "category": "minor" },
+    "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "minor" },
+    "launch-tower-loot": { "displayName": "Launch Tower Loot", "translationKey": "launchTowerLoot", "category": "minor" },
+    "bird-city": { "displayName": "Bird City", "translationKey": "birdCity", "category": "minor" },
+    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" }
   },
 
   "maps": {
@@ -82,20 +39,22 @@
 
     "dam-battleground": {
       "major": {
-        "2": "night-raid",
         "10": "night-raid",
         "18": "night-raid",
         "6": "electromagnetic-storm",
-        "14": "electromagnetic-storm",
-        "22": "electromagnetic-storm"
+        "22": "electromagnetic-storm",
+        "2": "cold-snap",
+        "14": "cold-snap"
       },
       "minor": {
         "1": "harvester",
         "7": "harvester",
         "13": "harvester",
         "19": "harvester",
-        "3": "husk-graveyard",
-        "15": "husk-graveyard",
+        "3": "prospecting-probes",
+        "15": "prospecting-probes",
+        "9": "husk-graveyard",
+        "21": "husk-graveyard",
         "4": "matriarch",
         "10": "matriarch",
         "16": "matriarch",
@@ -107,17 +66,18 @@
 
     "buried-city": {
       "major": {
-        "3": "night-raid",
         "7": "night-raid",
-        "11": "night-raid",
         "15": "night-raid",
-        "19": "night-raid",
-        "23": "night-raid"
+        "23": "night-raid",
+        "3": "cold-snap",
+        "11": "cold-snap",
+        "19": "cold-snap"
       },
       "minor": {
         "4": "husk-graveyard",
         "20": "husk-graveyard",
         "12": "uncovered-caches",
+        "12": "prospecting-probes",
         "0": "bird-city",
         "2": "bird-city",
         "6": "bird-city",
@@ -132,24 +92,24 @@
 
     "the-spaceport": {
       "major": {
-        "0": "night-raid",
         "16": "night-raid",
-        "8": "electromagnetic-storm"
+        "8": "electromagnetic-storm",
+        "0": "cold-snap",
+        "5": "cold-snap",
+        "13": "cold-snap",
+        "21": "cold-snap"
       },
       "minor": {
+        "8": "harvester",
         "0": "harvester",
-        "6": "harvester",
         "12": "harvester",
         "18": "harvester",
         "3": "matriarch",
         "9": "matriarch",
         "15": "matriarch",
         "21": "matriarch",
-        "1": "hidden-bunker",
         "4": "hidden-bunker",
-        "9": "hidden-bunker",
         "12": "hidden-bunker",
-        "17": "hidden-bunker",
         "20": "hidden-bunker",
         "1": "launch-tower-loot",
         "13": "launch-tower-loot"
@@ -158,12 +118,12 @@
 
     "blue-gate": {
       "major": {
-        "5": "night-raid",
-        "21": "night-raid",
-        "13": "electromagnetic-storm",
-        "1": "locked-gate",
-        "9": "locked-gate",
-        "17": "locked-gate"
+        "1": "night-raid",
+        "17": "night-raid",
+        "21": "electromagnetic-storm",
+        "5": "locked-gate",
+        "13": "locked-gate",
+        "9": "locked-gate"
       },
       "minor": {
         "5": "harvester",
@@ -175,7 +135,8 @@
         "8": "matriarch",
         "14": "matriarch",
         "20": "matriarch",
-        "19": "uncovered-caches"
+        "19": "uncovered-caches",
+        "19": "prospecting-probes"
       }
     },
 
