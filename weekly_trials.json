@@ -26,7 +26,7 @@
       "trials": [
         "deal-damage-to-shredders",
         "search-first-wave-husks",
-        "deliver-thermal-rocks",
+        "deal-damage-to-rocketeers",
         "damage-leapers",
         "destroy-fireballs"
       ]
@@ -82,9 +82,9 @@
       "translationKey": "trial.search_first_wave",
       "category": "weekly"
     },
-    "deliver-thermal-rocks": {
-      "displayName": "Deliver thermal rocks",
-      "translationKey": "trial.deliver_thermal_rocks",
+    "deal-damage-to-rocketeers": {
+      "displayName": "Deal damage to Rocketeers",
+      "translationKey": "trial.damage_rocketeers",
       "category": "weekly"
     },
     "damage-leapers": {
