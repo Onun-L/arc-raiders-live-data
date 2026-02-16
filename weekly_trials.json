@@ -37,7 +37,7 @@
       "endsAtUTC": "2026-02-23T07:00:00Z",
       "trials": [
         "damage-wasps",
-        "keep-air-purifiers-clean-air",
+        "download-info-bunker",
         "damage-queens-or-matriarchs",
         "destroy-ticks",
         "open-arc-probes"
@@ -103,11 +103,7 @@
       "translationKey": "trial.damage_wasps",
       "category": "weekly"
     },
-    "keep-air-purifiers-clean-air": {
-      "displayName": "Keep Air Purifiers powered on during Toxic Swamp – Clean Air",
-      "translationKey": "trial.keep_air_purifiers",
-      "category": "weekly"
-    },
+ 
     "damage-queens-or-matriarchs": {
       "displayName": "Damage Queens or Matriarchs",
       "translationKey": "trial.damage_queens_matriarchs",
