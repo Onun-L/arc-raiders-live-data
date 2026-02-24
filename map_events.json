@@ -16,6 +16,7 @@
     "electromagnetic-storm": { "displayName": "Electromagnetic Storm", "translationKey": "electromagneticStorm", "category": "major" },
     "locked-gate": { "displayName": "Locked Gate", "translationKey": "lockedGate", "category": "major" },
     "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
+    "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" }
 
     "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
     "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
@@ -25,7 +26,6 @@
     "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "minor" },
     "launch-tower-loot": { "displayName": "Launch Tower Loot", "translationKey": "launchTowerLoot", "category": "minor" },
     "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" },
-    "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" }
   },
 
   "maps": {
@@ -75,6 +75,8 @@
         "3": "cold-snap",
         "11": "cold-snap",
         "19": "cold-snap"
+        "0": "hurricane"
+        "22": "hurricane"
       },
       "minor": {
         "4": "uncovered-caches",
@@ -98,6 +100,8 @@
         "0": "electromagnetic-storm",
         "16": "electromagnetic-storm",
         "20": "cold-snap"
+        "5": "hurricane",
+        "17": "hurricane"
       },
       "minor": {
         "0": "harvester",
@@ -112,8 +116,6 @@
         "12": "hidden-bunker",
         "1": "launch-tower-loot",
         "13": "launch-tower-loot",
-        "5": "hurricane",
-        "17": "hurricane"
       }
     },
 
@@ -125,6 +127,8 @@
         "5": "locked-gate",
         "13": "locked-gate",
         "1": "cold-snap"
+        "11": "hurricane",
+        "23": "hurricane"
       },
       "minor": {
         "5": "harvester",
@@ -138,8 +142,6 @@
         "14": "matriarch",
         "20": "matriarch",
         "19": "prospecting-probes",
-        "3": "hurricane",
-        "15": "hurricane"
       }
     },
 
