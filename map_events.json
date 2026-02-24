@@ -2,13 +2,13 @@
   "_readme": {
     "description": "Map events rotation schedule for ARC Raiders",
     "format": "Times are UTC hours (0-23). All events last exactly 1 hour.",
-    "note": "Rotation updated including Hurricane."
+    "note": "Rotation rebuilt from latest provided table."
   },
 
   "meta": {
     "version": "2026.01.28",
-    "updatedAt": "2026-01-28T00:00:00Z",
-    "note": "Rotation fully updated from latest live table."
+    "updatedAt": "2026-01-28T12:00:00Z",
+    "note": "Full rebuild based strictly on latest rotation table."
   },
 
   "eventTypes": {
@@ -16,7 +16,7 @@
     "electromagnetic-storm": { "displayName": "Electromagnetic Storm", "translationKey": "electromagneticStorm", "category": "major" },
     "locked-gate": { "displayName": "Locked Gate", "translationKey": "lockedGate", "category": "major" },
     "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
-    "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" }
+    "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" },
 
     "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
     "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
@@ -25,7 +25,7 @@
     "bird-city": { "displayName": "Bird City", "translationKey": "birdCity", "category": "minor" },
     "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "minor" },
     "launch-tower-loot": { "displayName": "Launch Tower Loot", "translationKey": "launchTowerLoot", "category": "minor" },
-    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" },
+    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" }
   },
 
   "maps": {
@@ -74,9 +74,11 @@
         "23": "night-raid",
         "3": "cold-snap",
         "11": "cold-snap",
-        "19": "cold-snap"
-        "0": "hurricane"
-        "22": "hurricane"
+        "19": "cold-snap",
+        "0": "hurricane",
+        "8": "hurricane",
+        "12": "hurricane",
+        "20": "hurricane"
       },
       "minor": {
         "4": "uncovered-caches",
@@ -99,9 +101,10 @@
         "8": "night-raid",
         "0": "electromagnetic-storm",
         "16": "electromagnetic-storm",
-        "20": "cold-snap"
-        "5": "hurricane",
-        "17": "hurricane"
+        "20": "cold-snap",
+        "2": "hurricane",
+        "10": "hurricane",
+        "22": "hurricane"
       },
       "minor": {
         "0": "harvester",
@@ -115,7 +118,7 @@
         "4": "hidden-bunker",
         "12": "hidden-bunker",
         "1": "launch-tower-loot",
-        "13": "launch-tower-loot",
+        "13": "launch-tower-loot"
       }
     },
 
@@ -126,9 +129,10 @@
         "21": "electromagnetic-storm",
         "5": "locked-gate",
         "13": "locked-gate",
-        "1": "cold-snap"
-        "11": "hurricane",
-        "23": "hurricane"
+        "9": "locked-gate",
+        "1": "cold-snap",
+        "3": "hurricane",
+        "15": "hurricane"
       },
       "minor": {
         "5": "harvester",
@@ -141,7 +145,7 @@
         "8": "matriarch",
         "14": "matriarch",
         "20": "matriarch",
-        "19": "prospecting-probes",
+        "19": "prospecting-probes"
       }
     },
 
