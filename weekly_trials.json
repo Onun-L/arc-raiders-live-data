@@ -10,7 +10,7 @@
     {
       "weekId": "2026-W07",
       "startsAtUTC": "2026-02-16T07:00:00Z",
-      "endsAtUTC": "2026-02-23T07:00:00Z",
+      "endsAtUTC": "2026-02-25T07:00:00Z",
       "trials": [
         "damage-wasps",
         "download-info-bunker",
@@ -21,7 +21,7 @@
     },
     {
       "weekId": "2026-W08",
-      "startsAtUTC": "2026-02-23T07:00:00Z",
+      "startsAtUTC": "2026-02-25T07:00:00Z",
       "endsAtUTC": "2026-03-02T07:00:00Z",
       "trials": [
         "damage-leapers",
