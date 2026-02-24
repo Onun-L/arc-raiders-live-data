@@ -2,8 +2,8 @@
   "meta": {
     "version": "1.3",
     "updatedAt": "2026-02-24",
-    "season": "Season 3",
-    "note": "Active and upcoming weekly trials for Season 2. Only current and future weeks are stored. All dates are defined in UTC."
+    "season": "Season 2",
+    "note": "Active and upcoming weekly trials for Season 2. Trials reset follows the in-game schedule. All dates are defined in UTC and converted locally by the app."
   },
 
   "weeks": [
@@ -22,7 +22,7 @@
     {
       "weekId": "2026-W08",
       "startsAtUTC": "2026-02-25T07:00:00Z",
-      "endsAtUTC": "2026-03-02T07:00:00Z",
+      "endsAtUTC": "2026-03-04T07:00:00Z",
       "trials": [
         "damage-leapers",
         "loot-bird-nests",
@@ -33,8 +33,8 @@
     },
     {
       "weekId": "2026-W09",
-      "startsAtUTC": "2026-03-02T07:00:00Z",
-      "endsAtUTC": "2026-03-09T07:00:00Z",
+      "startsAtUTC": "2026-03-04T07:00:00Z",
+      "endsAtUTC": "2026-03-11T07:00:00Z",
       "trials": [
         "open-traffic-tunnels",
         "search-raider-caches",
@@ -45,8 +45,8 @@
     },
     {
       "weekId": "2026-W10",
-      "startsAtUTC": "2026-03-09T07:00:00Z",
-      "endsAtUTC": "2026-03-16T07:00:00Z",
+      "startsAtUTC": "2026-03-11T07:00:00Z",
+      "endsAtUTC": "2026-03-18T07:00:00Z",
       "trials": [
         "get-hit-by-lightning",
         "damage-hornets",
@@ -57,8 +57,8 @@
     },
     {
       "weekId": "2026-W11",
-      "startsAtUTC": "2026-03-16T07:00:00Z",
-      "endsAtUTC": "2026-03-23T07:00:00Z",
+      "startsAtUTC": "2026-03-18T07:00:00Z",
+      "endsAtUTC": "2026-03-25T07:00:00Z",
       "trials": [
         "damage-ground-arc-enemies",
         "destroy-ticks-fireballs-pops",
@@ -67,5 +67,140 @@
         "search-medical-research-wing"
       ]
     }
-  ]
+  ],
+
+  "trials": {
+
+    "damage-wasps": {
+      "displayName": "Damage Wasps",
+      "translationKey": "trial.damage_wasps",
+      "category": "weekly"
+    },
+
+    "download-info-bunker": {
+      "displayName": "Download information inside the bunker",
+      "translationKey": "trial.download_bunker",
+      "category": "weekly"
+    },
+
+    "damage-queens-or-matriarchs": {
+      "displayName": "Damage Queens or Matriarchs",
+      "translationKey": "trial.damage_queens_matriarchs",
+      "category": "weekly"
+    },
+
+    "destroy-ticks": {
+      "displayName": "Destroy Ticks",
+      "translationKey": "trial.destroy_ticks",
+      "category": "weekly"
+    },
+
+    "open-arc-probes": {
+      "displayName": "Open ARC Probes",
+      "translationKey": "trial.open_arc_probes",
+      "category": "weekly"
+    },
+
+    "damage-leapers": {
+      "displayName": "Damage Leapers",
+      "translationKey": "trial.damage_leapers",
+      "category": "weekly"
+    },
+
+    "loot-bird-nests": {
+      "displayName": "Loot bird's nests",
+      "translationKey": "trial.loot_bird_nests",
+      "category": "weekly"
+    },
+
+    "damage-spotters": {
+      "displayName": "Damage Spotters",
+      "translationKey": "trial.damage_spotters",
+      "category": "weekly"
+    },
+
+    "search-medical-research-wing": {
+      "displayName": "Search containers in the Medical Research wing",
+      "translationKey": "trial.search_medical_research",
+      "category": "weekly"
+    },
+
+    "open-traffic-tunnels": {
+      "displayName": "Open containers inside the traffic tunnels",
+      "translationKey": "trial.open_traffic_tunnels",
+      "category": "weekly"
+    },
+
+    "search-raider-caches": {
+      "displayName": "Search Raider Caches",
+      "translationKey": "trial.search_raider_caches",
+      "category": "weekly"
+    },
+
+    "damage-rocketeers-leapers-bastions": {
+      "displayName": "Damage Rocketeers, Leapers or Bastions",
+      "translationKey": "trial.damage_multiple_arc",
+      "category": "weekly"
+    },
+
+    "destroy-arc-enemies-swamp": {
+      "displayName": "Destroy ARC enemies in the Swamp",
+      "translationKey": "trial.destroy_arc_swamp",
+      "category": "weekly"
+    },
+
+    "get-hit-by-lightning": {
+      "displayName": "Get hit by lightning",
+      "translationKey": "trial.get_hit_lightning",
+      "category": "weekly"
+    },
+
+    "damage-hornets": {
+      "displayName": "Damage Hornets",
+      "translationKey": "trial.damage_hornets",
+      "category": "weekly"
+    },
+
+    "damage-spaceport-flying-enemies": {
+      "displayName": "Damage flying ARC enemies inside the Spaceport walls",
+      "translationKey": "trial.damage_spaceport",
+      "category": "weekly"
+    },
+
+    "damage-bombardiers": {
+      "displayName": "Damage Bombardiers",
+      "translationKey": "trial.damage_bombardiers",
+      "category": "weekly"
+    },
+
+    "deliver-carriables": {
+      "displayName": "Deliver carriables",
+      "translationKey": "trial.deliver_carriables",
+      "category": "weekly"
+    },
+
+    "damage-ground-arc-enemies": {
+      "displayName": "Damage ground-based ARC enemies",
+      "translationKey": "trial.damage_ground_arc",
+      "category": "weekly"
+    },
+
+    "destroy-ticks-fireballs-pops": {
+      "displayName": "Destroy Ticks, Fireballs and Pops",
+      "translationKey": "trial.destroy_multiple_small",
+      "category": "weekly"
+    },
+
+    "disarm-mines-locked-gate": {
+      "displayName": "Disarm mines during Locked Gate",
+      "translationKey": "trial.disarm_mines",
+      "category": "weekly"
+    },
+
+    "harvest-plants": {
+      "displayName": "Harvest plants",
+      "translationKey": "trial.harvest_plants",
+      "category": "weekly"
+    }
+  }
 }
