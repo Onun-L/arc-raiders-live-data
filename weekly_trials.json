@@ -1,40 +1,16 @@
 {
   "meta": {
-    "version": "1.1",
-    "updatedAt": "2026-02-09",
+    "version": "1.3",
+    "updatedAt": "2026-02-24",
     "season": "Season 2",
-    "note": "Active and upcoming weekly trials for Season 2. Trials reset follows the in-game schedule. All dates are defined in UTC and converted locally by the app. Future Season 3 trials may coexist in this file before Season 2 officially ends."
+    "note": "Active and upcoming weekly trials for Season 2. Only current and future weeks are stored. All dates are defined in UTC."
   },
 
   "weeks": [
     {
-      "weekId": "2026-W05",
-      "startsAtUTC": "2026-02-02T07:00:00Z",
-      "endsAtUTC": "2026-02-09T07:00:00Z",
-      "trials": [
-        "deliver-carriables",
-        "damage-ground-arc-enemies",
-        "open-arc-probes",
-        "damage-hornets",
-        "download-info-bunker"
-      ]
-    },
-    {
-      "weekId": "2026-W06",
-      "startsAtUTC": "2026-02-09T07:00:00Z",
-      "endsAtUTC": "2026-02-16T07:00:00Z",
-      "trials": [
-        "deal-damage-to-shredders",
-        "search-first-wave-husks",
-        "deal-damage-to-rocketeers",
-        "damage-leapers",
-        "destroy-fireballs"
-      ]
-    },
-    {
       "weekId": "2026-W07",
       "startsAtUTC": "2026-02-16T07:00:00Z",
-      "endsAtUTC": "2026-02-25T07:00:00Z",
+      "endsAtUTC": "2026-02-23T07:00:00Z",
       "trials": [
         "damage-wasps",
         "download-info-bunker",
@@ -42,77 +18,54 @@
         "destroy-ticks",
         "open-arc-probes"
       ]
+    },
+    {
+      "weekId": "2026-W08",
+      "startsAtUTC": "2026-02-23T07:00:00Z",
+      "endsAtUTC": "2026-03-02T07:00:00Z",
+      "trials": [
+        "damage-leapers",
+        "loot-bird-nests",
+        "damage-spotters",
+        "open-arc-probes",
+        "search-medical-research-wing"
+      ]
+    },
+    {
+      "weekId": "2026-W09",
+      "startsAtUTC": "2026-03-02T07:00:00Z",
+      "endsAtUTC": "2026-03-09T07:00:00Z",
+      "trials": [
+        "open-traffic-tunnels",
+        "search-raider-caches",
+        "damage-rocketeers-leapers-bastions",
+        "destroy-ticks",
+        "destroy-arc-enemies-swamp"
+      ]
+    },
+    {
+      "weekId": "2026-W10",
+      "startsAtUTC": "2026-03-09T07:00:00Z",
+      "endsAtUTC": "2026-03-16T07:00:00Z",
+      "trials": [
+        "get-hit-by-lightning",
+        "damage-hornets",
+        "damage-spaceport-flying-enemies",
+        "damage-bombardiers",
+        "deliver-carriables"
+      ]
+    },
+    {
+      "weekId": "2026-W11",
+      "startsAtUTC": "2026-03-16T07:00:00Z",
+      "endsAtUTC": "2026-03-23T07:00:00Z",
+      "trials": [
+        "damage-ground-arc-enemies",
+        "destroy-ticks-fireballs-pops",
+        "disarm-mines-locked-gate",
+        "harvest-plants",
+        "search-medical-research-wing"
+      ]
     }
-  ],
-
-  "trials": {
-    "deliver-carriables": {
-      "displayName": "Deliver carriables",
-      "translationKey": "trial.deliver_carriables",
-      "category": "weekly"
-    },
-    "damage-ground-arc-enemies": {
-      "displayName": "Damage ground-based ARC enemies",
-      "translationKey": "trial.damage_ground_arc",
-      "category": "weekly"
-    },
-    "open-arc-probes": {
-      "displayName": "Open ARC Probes",
-      "translationKey": "trial.open_arc_probes",
-      "category": "weekly"
-    },
-    "damage-hornets": {
-      "displayName": "Damage Hornets",
-      "translationKey": "trial.damage_hornets",
-      "category": "weekly"
-    },
-    "download-info-bunker": {
-      "displayName": "Download information inside the bunker",
-      "translationKey": "trial.download_bunker",
-      "category": "weekly"
-    },
-
-    "deal-damage-to-shredders": {
-      "displayName": "Deal damage to Shredders",
-      "translationKey": "trial.damage_shredders",
-      "category": "weekly"
-    },
-    "search-first-wave-husks": {
-      "displayName": "Search First Wave husks",
-      "translationKey": "trial.search_first_wave",
-      "category": "weekly"
-    },
-    "deal-damage-to-rocketeers": {
-      "displayName": "Deal damage to Rocketeers",
-      "translationKey": "trial.damage_rocketeers",
-      "category": "weekly"
-    },
-    "damage-leapers": {
-      "displayName": "Damage Leapers",
-      "translationKey": "trial.damage_leapers",
-      "category": "weekly"
-    },
-    "destroy-fireballs": {
-      "displayName": "Destroy Fireballs",
-      "translationKey": "trial.destroy_fireballs",
-      "category": "weekly"
-    },
-
-    "damage-wasps": {
-      "displayName": "Damage Wasps",
-      "translationKey": "trial.damage_wasps",
-      "category": "weekly"
-    },
- 
-    "damage-queens-or-matriarchs": {
-      "displayName": "Damage Queens or Matriarchs",
-      "translationKey": "trial.damage_queens_matriarchs",
-      "category": "weekly"
-    },
-    "destroy-ticks": {
-      "displayName": "Destroy Ticks",
-      "translationKey": "trial.destroy_ticks",
-      "category": "weekly"
-    }
-  }
+  ]
 }
