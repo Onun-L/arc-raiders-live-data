@@ -35,7 +35,6 @@
     "blue-gate": { "displayName": "The Blue Gate" },
     "stella-montis": { "displayName": "Stella Montis" }
   },
-
   "schedule": {
 
     "dam-battleground": {
@@ -47,8 +46,10 @@
         "2": "cold-snap",
         "14": "cold-snap",
         "0": "hurricane",
+        "4": "hurricane",
         "8": "hurricane",
         "12": "hurricane",
+        "16": "hurricane",
         "20": "hurricane"
       },
       "minor": {
@@ -76,13 +77,15 @@
         "11": "cold-snap",
         "19": "cold-snap",
         "2": "hurricane",
-        "8": "hurricane",
-        "12": "hurricane",
-        "20": "hurricane"
+        "6": "hurricane",
+        "10": "hurricane",
+        "14": "hurricane",
+        "18": "hurricane",
+         "22": "hurricane"
       },
       "minor": {
         "4": "uncovered-caches",
-        "12": "uncovered-caches",
+         "12": "uncovered-caches",
         "20": "uncovered-caches",
         "0": "bird-city",
         "2": "bird-city",
@@ -102,9 +105,12 @@
         "0": "electromagnetic-storm",
         "16": "electromagnetic-storm",
         "20": "cold-snap",
-        "2": "hurricane",
-        "10": "hurricane",
-        "22": "hurricane"
+        "1": "hurricane",
+        "5": "hurricane",
+        "9": "hurricane",
+        "13": "hurricane",
+        "17": "hurricane",
+        "21": "hurricane"
       },
       "minor": {
         "0": "harvester",
@@ -122,32 +128,34 @@
       }
     },
 
-    "blue-gate": {
-      "major": {
-        "9": "night-raid",
-        "17": "night-raid",
-        "21": "electromagnetic-storm",
-        "5": "locked-gate",
-        "13": "locked-gate",
-        "9": "locked-gate",
-        "1": "cold-snap",
-        "3": "hurricane",
-        "15": "hurricane"
+     "blue-gate": {
+    "major": {
+      "9": "night-raid",
+      "17": "electromagnetic-storm",
+      "5": "locked-gate",
+      "13": "locked-gate",
+      "21": "locked-gate",
+      "1": "cold-snap",
+      "3": "hurricane",
+      "7": "hurricane",
+      "11": "hurricane",
+      "15": "hurricane",
+      "19": "hurricane",
+      "23": "hurricane"
       },
-      "minor": {
-        "5": "harvester",
-        "11": "harvester",
-        "17": "harvester",
-        "23": "harvester",
-        "7": "uncovered-caches",
-        "19": "uncovered-caches",
-        "2": "matriarch",
-        "8": "matriarch",
-        "14": "matriarch",
-        "20": "matriarch",
-        "19": "prospecting-probes"
-      }
-    },
+    "minor": {
+      "5": "harvester",
+      "11": "harvester",
+      "17": "harvester",
+      "23": "harvester",
+      "2": "matriarch",
+      "8": "matriarch",
+      "14": "matriarch",
+      "20": "matriarch",
+      "7": "uncovered-caches",
+      "19": "uncovered-caches"
+    }
+  },
 
     "stella-montis": {
       "major": {
