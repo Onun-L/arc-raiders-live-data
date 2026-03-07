@@ -61,10 +61,10 @@
         "10": "matriarch",
         "16": "matriarch",
         "22": "matriarch",
-        "3": "uncovered-caches",
-        "9": "uncovered-caches",
-        "15": "uncovered-caches",
-        "21": "uncovered-caches"
+        "3": "prospecting-probes",
+        "9": "prospecting-probes",
+        "15": "prospecting-probes",
+        "21": "prospecting-probes"
       }
     },
 
@@ -84,16 +84,16 @@
          "22": "hurricane"
       },
       "minor": {
-        "4": "uncovered-caches",
-         "12": "uncovered-caches",
-        "20": "uncovered-caches",
-        "0": "bird-city",
+        "4": "prospecting-probes",
+        "12": "prospecting-probes",
+        "20": "husk-graveyard",
+        "0": "husk-graveyard",
         "2": "bird-city",
         "6": "bird-city",
-        "8": "bird-city",
+        "8": "husk-graveyard",
         "10": "bird-city",
         "14": "bird-city",
-        "16": "bird-city",
+        "16": "prospecting-probes",
         "18": "bird-city",
         "22": "bird-city"
       }
@@ -104,6 +104,8 @@
         "8": "night-raid",
         "0": "electromagnetic-storm",
         "16": "electromagnetic-storm",
+        "4": "cold-snap",
+        "12": "cold-snap",
         "20": "cold-snap",
         "1": "hurricane",
         "5": "hurricane",
@@ -121,8 +123,6 @@
         "9": "matriarch",
         "15": "matriarch",
         "21": "matriarch",
-        "4": "hidden-bunker",
-        "12": "hidden-bunker",
         "1": "launch-tower-loot",
         "13": "launch-tower-loot"
       }
@@ -130,11 +130,11 @@
 
      "blue-gate": {
     "major": {
-      "9": "night-raid",
-      "17": "electromagnetic-storm",
-      "5": "locked-gate",
-      "13": "locked-gate",
-      "21": "locked-gate",
+      "9": "cold-snap",
+      "17": "cold-snap",
+      "5": "electromagnetic-storm",
+      "13": "night-raid",
+      "21": "electromagnetic-storm",
       "1": "cold-snap",
       "3": "hurricane",
       "7": "hurricane",
@@ -152,8 +152,8 @@
       "8": "matriarch",
       "14": "matriarch",
       "20": "matriarch",
-      "7": "uncovered-caches",
-      "19": "uncovered-caches"
+      "7": "husk-graveyard",
+      "19": "prospecting-probes"
     }
   },
 
