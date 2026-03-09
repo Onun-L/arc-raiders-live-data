@@ -123,8 +123,8 @@
         "9": "matriarch",
         "15": "matriarch",
         "21": "matriarch",
-        "1": "locked-gate",
-        "13": "locked-gate"
+        "1": "launch-tower-loot",
+        "13": "launch-tower-loot"
       }
     },
 
@@ -135,7 +135,7 @@
       "5": "electromagnetic-storm",
       "13": "night-raid",
       "21": "electromagnetic-storm",
-      "1": "cold-snap",
+      "1": "locked-gate",
       "3": "hurricane",
       "7": "hurricane",
       "11": "hurricane",
