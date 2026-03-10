@@ -6,9 +6,9 @@
   },
 
   "meta": {
-    "version": "2026.01.28",
-    "updatedAt": "2026-01-28T12:00:00Z",
-    "note": "Full rebuild based strictly on latest rotation table."
+    "version": "2026.03.10",
+    "updatedAt": "2026-03-10T21:30:00Z",
+    "note": "Rotation rebuilt from updated table provided on 2026-03-10."
   },
 
   "eventTypes": {
@@ -17,15 +17,16 @@
     "locked-gate": { "displayName": "Locked Gate", "translationKey": "lockedGate", "category": "major" },
     "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
     "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" },
+    "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "major" },
 
     "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
     "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
     "matriarch": { "displayName": "Matriarch", "translationKey": "matriarch", "category": "minor" },
     "uncovered-caches": { "displayName": "Uncovered Caches", "translationKey": "uncoveredCaches", "category": "minor" },
     "bird-city": { "displayName": "Bird City", "translationKey": "birdCity", "category": "minor" },
-    "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "minor" },
     "launch-tower-loot": { "displayName": "Launch Tower Loot", "translationKey": "launchTowerLoot", "category": "minor" },
-    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" }
+    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" },
+    "lush-bloms": { "displayName": "Lush Bloms", "translationKey": "lushBloms", "category": "minor" }
   },
 
   "maps": {
@@ -35,16 +36,19 @@
     "blue-gate": { "displayName": "The Blue Gate" },
     "stella-montis": { "displayName": "Stella Montis" }
   },
+
   "schedule": {
 
     "dam-battleground": {
       "major": {
-        "10": "night-raid",
-        "18": "night-raid",
-        "6": "electromagnetic-storm",
-        "22": "electromagnetic-storm",
         "2": "cold-snap",
-        "14": "cold-snap",
+        "10": "cold-snap",
+        "18": "cold-snap",
+
+        "6": "night-raid",
+        "14": "night-raid",
+        "22": "night-raid",
+
         "0": "hurricane",
         "4": "hurricane",
         "8": "hurricane",
@@ -57,56 +61,65 @@
         "7": "harvester",
         "13": "harvester",
         "19": "harvester",
+
         "4": "matriarch",
         "10": "matriarch",
         "16": "matriarch",
         "22": "matriarch",
-        "3": "prospecting-probes",
-        "9": "prospecting-probes",
-        "15": "prospecting-probes",
-        "21": "prospecting-probes"
+
+        "9": "uncovered-caches",
+        "21": "uncovered-caches",
+
+        "3": "lush-bloms",
+        "15": "lush-bloms"
       }
     },
 
     "buried-city": {
       "major": {
-        "7": "night-raid",
-        "15": "night-raid",
-        "23": "night-raid",
         "3": "cold-snap",
         "11": "cold-snap",
         "19": "cold-snap",
+
+        "7": "night-raid",
+        "15": "night-raid",
+        "23": "night-raid",
+
         "2": "hurricane",
         "6": "hurricane",
         "10": "hurricane",
         "14": "hurricane",
         "18": "hurricane",
-         "22": "hurricane"
+        "22": "hurricane"
       },
       "minor": {
-        "4": "prospecting-probes",
-        "12": "prospecting-probes",
-        "20": "husk-graveyard",
-        "0": "husk-graveyard",
         "2": "bird-city",
         "6": "bird-city",
-        "8": "husk-graveyard",
         "10": "bird-city",
         "14": "bird-city",
-        "16": "prospecting-probes",
         "18": "bird-city",
-        "22": "bird-city"
+        "22": "bird-city",
+
+        "4": "uncovered-caches",
+        "0": "uncovered-caches",
+        "20": "uncovered-caches",
+
+        "0": "lush-bloms",
+        "8": "lush-bloms",
+        "16": "lush-bloms"
       }
     },
 
     "the-spaceport": {
       "major": {
-        "8": "night-raid",
-        "0": "electromagnetic-storm",
-        "16": "electromagnetic-storm",
         "4": "cold-snap",
         "12": "cold-snap",
         "20": "cold-snap",
+
+        "0": "night-raid",
+        "8": "night-raid",
+        "16": "night-raid",
+
         "1": "hurricane",
         "5": "hurricane",
         "9": "hurricane",
@@ -115,47 +128,54 @@
         "21": "hurricane"
       },
       "minor": {
-        "0": "harvester",
         "6": "harvester",
-        "12": "harvester",
-        "18": "harvester",
+        "0": "harvester",
+        "21": "harvester",
+
         "3": "matriarch",
         "9": "matriarch",
         "15": "matriarch",
         "21": "matriarch",
+
         "1": "launch-tower-loot",
         "13": "launch-tower-loot"
       }
     },
 
-     "blue-gate": {
-    "major": {
-      "9": "cold-snap",
-      "17": "cold-snap",
-      "5": "electromagnetic-storm",
-      "13": "night-raid",
-      "21": "electromagnetic-storm",
-      "1": "locked-gate",
-      "3": "hurricane",
-      "7": "hurricane",
-      "11": "hurricane",
-      "15": "hurricane",
-      "19": "hurricane",
-      "23": "hurricane"
+    "blue-gate": {
+      "major": {
+        "1": "locked-gate",
+        "5": "locked-gate",
+        "9": "locked-gate",
+        "13": "locked-gate",
+        "17": "locked-gate",
+        "21": "locked-gate",
+
+        "3": "hurricane",
+        "7": "hurricane",
+        "11": "hurricane",
+        "15": "hurricane",
+        "19": "hurricane",
+        "23": "hurricane"
       },
-    "minor": {
-      "5": "harvester",
-      "11": "harvester",
-      "17": "harvester",
-      "23": "harvester",
-      "2": "matriarch",
-      "8": "matriarch",
-      "14": "matriarch",
-      "20": "matriarch",
-      "7": "husk-graveyard",
-      "19": "prospecting-probes"
-    }
-  },
+      "minor": {
+        "5": "harvester",
+        "11": "harvester",
+        "17": "harvester",
+        "23": "harvester",
+
+        "2": "matriarch",
+        "8": "matriarch",
+        "14": "matriarch",
+        "20": "matriarch",
+
+        "7": "husk-graveyard",
+
+        "19": "prospecting-probes",
+
+        "7": "lush-bloms"
+      }
+    },
 
     "stella-montis": {
       "major": {
