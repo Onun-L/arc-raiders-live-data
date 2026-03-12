@@ -1,0 +1,18 @@
+{
+  "id": "combat_mk3_aggressive",
+  "name": {
+    "en": "Combat Mk. 3 (Aggressive)"
+  },
+  "description": {
+    "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades."
+  },
+  "type": "Augment",
+  "rarity": "Epic",
+  "value": 5000,
+  "recyclesInto": {},
+  "weightKg": 5,
+  "stackSize": 1,
+  "foundIn": [],
+  "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
+  "updatedAt": "01/20/2026"
+}
