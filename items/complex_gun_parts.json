@@ -1,0 +1,27 @@
+{
+  "id": "complex_gun_parts",
+  "name": { "en": "Complex Gun Parts" },
+  "description": {
+    "en": "Used to craft advanced weapons."
+  },
+  "type": "Topside Material",
+  "rarity": "Epic",
+  "value": 3000,
+  "weightKg": 1,
+  "stackSize": 3,
+  "foundIn": [
+    "Security"
+  ],
+  "obtainedFrom": [
+    "Aphelion",
+    "Equalizer",
+    "Jupiter"
+  ],
+  "soldBy": {
+    "trader": "Celeste",
+    "cost": "60 Assorted Seeds",
+    "limit": 1
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts.png",
+  "updatedAt": "02/24/2026"
+}
