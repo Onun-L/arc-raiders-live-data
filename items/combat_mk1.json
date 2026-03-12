@@ -1,0 +1,18 @@
+{
+  "id": "combat_mk1",
+  "name": {
+    "en": "Combat Mk. 1"
+  },
+  "description": {
+    "en": "Basic combat augment. Supports stronger shields, but with limited backpack capacity and Quick Use slots."
+  },
+  "type": "Augment",
+  "rarity": "Uncommon",
+  "value": 640,
+  "recyclesInto": {},
+  "weightKg": 2,
+  "stackSize": 1,
+  "foundIn": [],
+  "imageFilename": "https://cdn.arctracker.io/items/combat_mk1.png",
+  "updatedAt": "02/24/2026"
+}
