@@ -1,0 +1,23 @@
+{
+  "id": "crumpled_plastic_bottle",
+  "name": { "en": "Crumpled Plastic Bottle" },
+  "description": {
+    "en": "Can be recycled into crafting materials."
+  },
+  "type": "Recyclable",
+  "rarity": "Uncommon",
+  "value": 270,
+  "recyclesInto": {
+    "plastic_parts": 4
+  },
+  "salvagesInto": {
+    "plastic_parts": 1
+  },
+  "weightKg": 0.8,
+  "stackSize": 3,
+  "foundIn": [
+    "Residential"
+  ],
+  "imageFilename": "https://cdn.arctracker.io/items/crumpled_plastic_bottle.png",
+  "updatedAt": "11/04/2025"
+}
