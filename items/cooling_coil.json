@@ -1,0 +1,27 @@
+{
+  "id": "cooling_coil",
+  "name": { "en": "Cooling Coil" },
+  "description": {
+    "en": "Can be recycled into crafting materials."
+  },
+  "type": "Recyclable",
+  "rarity": "Rare",
+  "value": 1000,
+  "recyclesInto": {
+    "chemicals": 6,
+    "steel_spring": 2
+  },
+  "salvagesInto": {
+    "steel_spring": 2
+  },
+  "weightKg": 2,
+  "stackSize": 3,
+  "foundIn": [
+    "Industrial"
+  ],
+  "usedInCrafting": [
+    "steel_spring"
+  ],
+  "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
+  "updatedAt": "01/09/2026"
+}
