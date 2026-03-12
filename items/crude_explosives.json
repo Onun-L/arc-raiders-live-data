@@ -1,0 +1,23 @@
+{
+  "id": "crude_explosives",
+  "name": { "en": "Crude Explosives" },
+  "description": {
+    "en": "Used to craft explosives."
+  },
+  "type": "Refined Material",
+  "rarity": "Uncommon",
+  "value": 270,
+  "recyclesInto": {},
+  "weightKg": 0.5,
+  "stackSize": 10,
+  "foundIn": [
+    "Industrial",
+    "Security"
+  ],
+  "effects": {
+    "damage": 15,
+    "radius": "1.5m"
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/crude_explosives.png",
+  "updatedAt": "02/24/2026"
+}
