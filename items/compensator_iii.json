@@ -1,0 +1,21 @@
+{
+  "id": "compensator_iii",
+  "name": { "en": "Compensator III" },
+  "description": {
+    "en": "Moderately reduces per-shot dispersion."
+  },
+  "type": "Modification",
+  "rarity": "Rare",
+  "value": 5000,
+  "recyclesInto": {},
+  "weightKg": 0.75,
+  "stackSize": 1,
+  "foundIn": [],
+  "effects": {
+    "durabilityBurnRate": "+20%",
+    "maxShotDispersion": "-30%",
+    "perShotDispersion": "-60%"
+  },
+  "imageFilename": "https://cdn.arctracker.io/items/compensator_iii.png",
+  "updatedAt": "02/24/2026"
+}
