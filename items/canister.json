@@ -1,0 +1,19 @@
+{
+  "id": "canister",
+  "name": {
+    "en": "Canister"
+  },
+  "description": {
+    "en": "Used to craft a wide range of items. Can be recycled into plastic. Used to craft: Bettina, Vita Spray, Heavy Fuze Grenade, Smoke Grenade."
+  },
+  "type": "Topside Material",
+  "rarity": "Uncommon",
+  "value": 300,
+  "recyclesInto": {
+    "plastic": 1
+  },
+  "weightKg": 0.25,
+  "stackSize": 15,
+  "imageFilename": "https://cdn.arctracker.io/items/canister.png",
+  "updatedAt": "01/13/2026"
+}
