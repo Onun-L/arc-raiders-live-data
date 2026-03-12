@@ -1,0 +1,31 @@
+{
+  "id": "cracked_bioscanner",
+  "name": { "en": "Cracked Bioscanner" },
+  "description": {
+    "en": "Can be recycled into crafting materials."
+  },
+  "type": "Recyclable",
+  "rarity": "Rare",
+  "value": 1000,
+  "recyclesInto": {
+    "battery": 3,
+    "rubber_parts": 3
+  },
+  "salvagesInto": {
+    "battery": 2
+  },
+  "weightKg": 2,
+  "stackSize": 3,
+  "foundIn": [
+    "Medical"
+  ],
+  "usedInHideoutUpgrades": [
+    {
+      "name": "Medical Lab",
+      "level": 2,
+      "quantity": 2
+    }
+  ],
+  "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
+  "updatedAt": "01/09/2026"
+}
