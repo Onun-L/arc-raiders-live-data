@@ -1,0 +1,23 @@
+{
+  "id": "comet_igniter",
+  "name": {
+    "en": "Comet Igniter"
+  },
+  "description": {
+    "en": "Can be recycled into crafting materials."
+  },
+  "type": "Recyclable",
+  "rarity": "Rare",
+  "value": 1000,
+  "recyclesInto": {
+    "arc_alloy": 2,
+    "crude_explosives": 2
+  },
+  "weightKg": 1,
+  "stackSize": 3,
+  "foundIn": [
+    "ARC"
+  ],
+  "imageFilename": "https://cdn.arctracker.io/items/comet_igniter.png",
+  "updatedAt": "02/24/2026"
+}
