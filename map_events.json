@@ -1,32 +1,30 @@
 {
   "_readme": {
     "description": "Map events rotation schedule for ARC Raiders",
-    "format": "Times are UTC hours (0-23). All events last exactly 1 hour.",
-    "note": "Rotation rebuilt from latest provided table."
+    "format": "Times are UTC hours (0-23). All events last exactly 1 hour."
   },
 
   "meta": {
     "version": "2026.03.17",
-    "updatedAt": "2026-03-17T23:00:00Z",
-    "note": "Rotation corrected based on latest validated table."
+    "updatedAt": "2026-03-17T23:00:00Z"
   },
 
   "eventTypes": {
-    "night-raid": { "displayName": "Night Raid", "category": "major" },
-    "electromagnetic-storm": { "displayName": "Electromagnetic Storm", "category": "major" },
-    "locked-gate": { "displayName": "Locked Gate", "category": "major" },
-    "cold-snap": { "displayName": "Cold Snap", "category": "major" },
-    "hurricane": { "displayName": "Hurricane", "category": "major" },
-    "hidden-bunker": { "displayName": "Hidden Bunker", "category": "major" },
+    "night-raid": { "displayName": "Night Raid", "translationKey": "nightRaid", "category": "major" },
+    "electromagnetic-storm": { "displayName": "Electromagnetic Storm", "translationKey": "electromagneticStorm", "category": "major" },
+    "locked-gate": { "displayName": "Locked Gate", "translationKey": "lockedGate", "category": "major" },
+    "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
+    "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" },
+    "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "major" },
 
-    "harvester": { "displayName": "Harvester", "category": "minor" },
-    "husk-graveyard": { "displayName": "Husk Graveyard", "category": "minor" },
-    "matriarch": { "displayName": "Matriarch", "category": "minor" },
-    "uncovered-caches": { "displayName": "Uncovered Caches", "category": "minor" },
-    "bird-city": { "displayName": "Bird City", "category": "minor" },
-    "launch-tower": { "displayName": "Launch Tower", "category": "minor" },
-    "prospecting-probes": { "displayName": "Prospecting Probes", "category": "minor" },
-    "lush-blooms": { "displayName": "Lush Blooms", "category": "minor" }
+    "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
+    "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
+    "matriarch": { "displayName": "Matriarch", "translationKey": "matriarch", "category": "minor" },
+    "uncovered-caches": { "displayName": "Uncovered Caches", "translationKey": "uncoveredCaches", "category": "minor" },
+    "bird-city": { "displayName": "Bird City", "translationKey": "birdCity", "category": "minor" },
+    "launch-tower-loot": { "displayName": "Launch Tower Loot", "translationKey": "launchTowerLoot", "category": "minor" },
+    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" },
+    "lush-bloms": { "displayName": "Lush Bloms", "translationKey": "lushBloms", "category": "minor" }
   },
 
   "maps": {
@@ -106,8 +104,8 @@
         "14": "harvester",
         "22": "harvester",
 
-        "2": "launch-tower",
-        "8": "launch-tower"
+        "2": "launch-tower-loot",
+        "8": "launch-tower-loot"
       }
     },
 
