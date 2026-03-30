@@ -6,11 +6,11 @@
   },
 
   "meta": {
-    "version": "2026.03.23",
-    "updatedAt": "2026-03-23T20:00:00Z",
-    "note": "Rotation rebuilt from updated table provided on 2026-03-10.",
-    "mappingStart": "2026-03-22T06:30:00Z",
-    "mappingEnd": "2026-03-30T06:30:00Z"
+    "version": "2026.03.30",
+    "updatedAt": "2026-03-30T20:00:00Z",
+    "note": "Rotation rebuilt from updated table provided on 2026-03-30.",
+    "mappingStart": "2026-03-30T21:00:00Z",
+    "mappingEnd": "2026-04-06T06:30:00Z"
   },
 
   "eventTypes": {
@@ -43,59 +43,29 @@
 
     "dam-battleground": {
       "major": {
-        "2": "cold-snap",
-        "10": "cold-snap",
-        "18": "cold-snap",
-
-        "6": "night-raid",
-        "14": "night-raid",
-        "22": "night-raid"
-      },
-      "minor": {
-        "2": "harvester",
-        "11": "harvester",
-        "17": "harvester",
-
-        "8": "matriarch",
-        "14": "matriarch",
-        "22": "matriarch",
-
-        "5": "lush-bloms",
-        "19": "lush-bloms"
-      }
-    },
-
-    "buried-city": {
-      "major": {
         "3": "cold-snap",
         "11": "cold-snap",
         "19": "cold-snap",
 
         "7": "night-raid",
         "15": "night-raid",
-        "23": "night-raid",
-
-        "2": "hurricane",
-        "6": "hurricane",
-        "10": "hurricane",
-        "14": "hurricane",
-        "18": "hurricane",
-        "22": "hurricane"
+        "23": "night-raid"
       },
       "minor": {
-        "2": "bird-city",
-        "8": "bird-city",
-        "14": "bird-city",
-        "19": "bird-city",
+        "3": "harvester",
+        "12": "harvester",
+        "18": "harvester",
 
-        "5": "lush-bloms",
-        "11": "lush-bloms",
-        "17": "lush-bloms",
-        "22": "lush-bloms"
+        "9": "matriarch",
+        "15": "matriarch",
+        "23": "matriarch",
+
+        "6": "lush-bloms",
+        "20": "lush-bloms"
       }
     },
 
-    "the-spaceport": {
+    "buried-city": {
       "major": {
         "4": "cold-snap",
         "12": "cold-snap",
@@ -105,36 +75,6 @@
         "8": "night-raid",
         "16": "night-raid",
 
-        "1": "hurricane",
-        "5": "hurricane",
-        "9": "hurricane",
-        "13": "hurricane",
-        "17": "hurricane",
-        "21": "hurricane"
-      },
-      "minor": {
-        "4": "harvester",
-        "10": "harvester",
-        "16": "harvester",
-
-        "7": "launch-tower-loot",
-        "21": "launch-tower-loot",
-
-        "1": "lush-bloms",
-        "13": "lush-bloms",
-        "18": "lush-bloms"
-      }
-    },
-
-    "blue-gate": {
-      "major": {
-        "1": "locked-gate",
-        "5": "locked-gate",
-        "9": "locked-gate",
-        "13": "locked-gate",
-        "17": "locked-gate",
-        "21": "locked-gate",
-
         "3": "hurricane",
         "7": "hurricane",
         "11": "hurricane",
@@ -143,26 +83,86 @@
         "23": "hurricane"
       },
       "minor": {
-        "6": "harvester",
-        "15": "harvester",
-        "20": "harvester",
+        "3": "bird-city",
+        "9": "bird-city",
+        "15": "bird-city",
+        "20": "bird-city",
 
-        "3": "matriarch",
-        "12": "matriarch",
-
-        "9": "lush-bloms",
+        "6": "lush-bloms",
+        "12": "lush-bloms",
+        "18": "lush-bloms",
         "23": "lush-bloms"
+      }
+    },
+
+    "the-spaceport": {
+      "major": {
+        "5": "cold-snap",
+        "13": "cold-snap",
+        "21": "cold-snap",
+
+        "1": "night-raid",
+        "9": "night-raid",
+        "17": "night-raid",
+
+        "2": "hurricane",
+        "6": "hurricane",
+        "10": "hurricane",
+        "14": "hurricane",
+        "18": "hurricane",
+        "22": "hurricane"
+      },
+      "minor": {
+        "5": "harvester",
+        "11": "harvester",
+        "17": "harvester",
+
+        "8": "launch-tower-loot",
+        "22": "launch-tower-loot",
+
+        "2": "lush-bloms",
+        "14": "lush-bloms",
+        "19": "lush-bloms"
+      }
+    },
+
+    "blue-gate": {
+      "major": {
+        "0": "hurricane",
+        "4": "hurricane",
+        "8": "hurricane",
+        "12": "hurricane",
+        "16": "hurricane",
+        "20": "hurricane",
+
+        "2": "locked-gate",
+        "6": "locked-gate",
+        "10": "locked-gate",
+        "14": "locked-gate",
+        "18": "locked-gate",
+        "22": "locked-gate"
+      },
+      "minor": {
+        "7": "harvester",
+        "16": "harvester",
+        "21": "harvester",
+
+        "4": "matriarch",
+        "13": "matriarch",
+
+        "0": "lush-bloms",
+        "10": "lush-bloms"
       }
     },
 
     "stella-montis": {
       "major": {
-        "3": "night-raid",
-        "7": "night-raid",
-        "11": "night-raid",
-        "15": "night-raid",
-        "18": "night-raid",
-        "22": "night-raid"
+        "4": "night-raid",
+        "8": "night-raid",
+        "12": "night-raid",
+        "16": "night-raid",
+        "19": "night-raid",
+        "23": "night-raid"
       },
       "minor": {}
     }
