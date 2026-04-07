@@ -20,6 +20,7 @@
     "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
     "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" },
     "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "major" },
+    "close-scrutiny": { "displayName": "Close Scrutiny", "translationKey": "closeScrutiny", "category": "major" },
 
     "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
     "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
@@ -43,126 +44,135 @@
 
     "dam-battleground": {
       "major": {
-        "3": "cold-snap",
-        "11": "cold-snap",
-        "19": "cold-snap",
+        "5": "electromagnetic-storm",
+        "17": "electromagnetic-storm",
 
-        "7": "night-raid",
-        "15": "night-raid",
-        "23": "night-raid"
+        "9": "hurricane",
+        "21": "hurricane",
+
+        "1": "night-raid",
+        "13": "night-raid",
+
+        "3": "close-scrutiny",
+        "7": "close-scrutiny",
+        "11": "close-scrutiny",
+        "15": "close-scrutiny",
+        "19": "close-scrutiny",
+        "23": "close-scrutiny"
       },
       "minor": {
-        "3": "harvester",
-        "12": "harvester",
-        "18": "harvester",
+        "0": "harvester",
+        "16": "harvester",
 
-        "9": "matriarch",
-        "15": "matriarch",
-        "23": "matriarch",
+        "7": "matriarch",
+        "13": "matriarch",
+        "18": "matriarch",
 
-        "6": "lush-bloms",
-        "20": "lush-bloms"
+        "4": "uncovered-caches",
+        "10": "uncovered-caches",
+        "21": "uncovered-caches"
       }
     },
 
     "buried-city": {
       "major": {
-        "4": "cold-snap",
-        "12": "cold-snap",
-        "20": "cold-snap",
+        "2": "hurricane",
+        "10": "hurricane",
+        "18": "hurricane",
 
-        "0": "night-raid",
-        "8": "night-raid",
-        "16": "night-raid",
+        "6": "night-raid",
+        "14": "night-raid",
+        "22": "night-raid",
 
-        "3": "hurricane",
-        "7": "hurricane",
-        "11": "hurricane",
-        "15": "hurricane",
-        "19": "hurricane",
-        "23": "hurricane"
+        "1": "close-scrutiny",
+        "5": "close-scrutiny",
+        "9": "close-scrutiny",
+        "13": "close-scrutiny",
+        "17": "close-scrutiny",
+        "21": "close-scrutiny"
       },
       "minor": {
-        "3": "bird-city",
-        "9": "bird-city",
-        "15": "bird-city",
-        "20": "bird-city",
+        "0": "bird-city",
+        "7": "bird-city",
+        "13": "bird-city",
+        "18": "bird-city",
 
-        "6": "lush-bloms",
-        "12": "lush-bloms",
-        "18": "lush-bloms",
-        "23": "lush-bloms"
+        "4": "uncovered-caches",
+        "10": "uncovered-caches",
+        "16": "uncovered-caches",
+        "21": "uncovered-caches"
       }
     },
 
     "the-spaceport": {
       "major": {
-        "5": "cold-snap",
-        "13": "cold-snap",
-        "21": "cold-snap",
+        "11": "electromagnetic-storm",
+        "23": "electromagnetic-storm",
 
-        "1": "night-raid",
-        "9": "night-raid",
-        "17": "night-raid",
+        "7": "hidden-bunker",
+        "19": "hidden-bunker",
 
-        "2": "hurricane",
-        "6": "hurricane",
-        "10": "hurricane",
-        "14": "hurricane",
-        "18": "hurricane",
-        "22": "hurricane"
+        "3": "night-raid",
+        "15": "night-raid",
+
+        "0": "close-scrutiny",
+        "4": "close-scrutiny",
+        "8": "close-scrutiny",
+        "12": "close-scrutiny",
+        "16": "close-scrutiny",
+        "20": "close-scrutiny"
       },
       "minor": {
-        "5": "harvester",
-        "11": "harvester",
-        "17": "harvester",
+        "23": "harvester",
 
-        "8": "launch-tower-loot",
-        "22": "launch-tower-loot",
+        "3": "launch-tower-loot",
+        "12": "launch-tower-loot",
+        "20": "launch-tower-loot",
 
-        "2": "lush-bloms",
-        "14": "lush-bloms",
-        "19": "lush-bloms"
+        "9": "matriarch",
+        "17": "matriarch",
+
+        "6": "uncovered-caches",
+        "15": "uncovered-caches"
       }
     },
 
     "blue-gate": {
       "major": {
-        "0": "hurricane",
-        "4": "hurricane",
-        "8": "hurricane",
-        "12": "hurricane",
-        "16": "hurricane",
-        "20": "hurricane",
+        "0": "locked-gate",
+        "4": "locked-gate",
+        "8": "locked-gate",
+        "12": "locked-gate",
+        "16": "locked-gate",
+        "20": "locked-gate",
 
-        "2": "locked-gate",
-        "6": "locked-gate",
-        "10": "locked-gate",
-        "14": "locked-gate",
-        "18": "locked-gate",
-        "22": "locked-gate"
+        "2": "close-scrutiny",
+        "6": "close-scrutiny",
+        "10": "close-scrutiny",
+        "14": "close-scrutiny",
+        "18": "close-scrutiny",
+        "22": "close-scrutiny"
       },
       "minor": {
-        "7": "harvester",
-        "16": "harvester",
-        "21": "harvester",
+        "1": "harvester",
+        "8": "harvester",
+        "14": "harvester",
 
-        "4": "matriarch",
-        "13": "matriarch",
+        "5": "matriarch",
+        "22": "matriarch",
 
-        "0": "lush-bloms",
-        "10": "lush-bloms"
+        "11": "uncovered-caches",
+        "19": "uncovered-caches"
       }
     },
 
     "stella-montis": {
       "major": {
-        "4": "night-raid",
-        "8": "night-raid",
-        "12": "night-raid",
-        "16": "night-raid",
-        "19": "night-raid",
-        "23": "night-raid"
+        "0": "night-raid",
+        "5": "night-raid",
+        "9": "night-raid",
+        "13": "night-raid",
+        "20": "night-raid"
       },
       "minor": {}
     }
