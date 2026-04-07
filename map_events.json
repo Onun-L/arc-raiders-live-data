@@ -9,8 +9,8 @@
     "version": "2026.03.30",
     "updatedAt": "2026-03-30T20:00:00Z",
     "note": "Rotation rebuilt from updated table provided on 2026-03-30.",
-    "mappingStart": "2026-03-30T21:00:00Z",
-    "mappingEnd": "2026-04-06T06:30:00Z"
+    "mappingStart": "2026-03-06T21:00:00Z",
+    "mappingEnd": "2026-04-13T06:30:00Z"
   },
 
   "eventTypes": {
