@@ -33,14 +33,14 @@
     },
     {
       "weekId": "2026-W14",
-      "startsAtUTC": "2026-03-30T07:00:00Z",
-      "endsAtUTC": "2026-04-06T07:00:00Z",
+      "startsAtUTC": "2026-04-06T07:00:00Z",
+      "endsAtUTC": "2026-04-13T07:00:00Z",
       "trials": [
-        "open-traffic-tunnels",
-        "damage-shredders",
-        "loot-bird-nests",
-        "search-first-wave-husks",
-        "damage-flying-arc-enemies"
+        "damage-arc-old-town",
+        "disarm-mines-locked-gate",
+        "search-raider-caches",
+        "damage-wasps",
+        "damage-vaporizers"
       ]
     }
   ],
@@ -88,7 +88,18 @@
       "translationKey": "trial.damage_queens_matriarchs",
       "category": "weekly"
     },
+    "damage-arc-old-town": {
+      "displayName": "Damage ARC enemies in Old Town",
+      "translationKey": "trial.damage_old_town",
+      "category": "weekly"
+    },
 
+    "damage-vaporizers": {
+      "displayName": "Damage Vaporizers",
+      "translationKey": "trial.damage_vaporizers",
+      "category": "weekly"
+    },
+    
     "destroy-ticks": {
       "displayName": "Destroy Ticks",
       "translationKey": "trial.destroy_ticks",
