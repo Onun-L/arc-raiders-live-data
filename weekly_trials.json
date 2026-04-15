@@ -42,7 +42,19 @@
         "damage-wasps",
         "damage-vaporizers"
       ]
-    }
+    },
+      {
+      "weekId": "2026-W16",
+      "startsAtUTC": "2026-04-13T07:00:00Z",
+      "endsAtUTC": "2026-04-20T07:00:00Z",
+      "trials": [
+        "get-hit-by-lightning",
+        "destroy-arc-enemies-swamp",
+        "damage-bastions",
+        "search-supply-drops",
+        "damage-comets"
+  ]
+}
   ],
 
   "trials": {
@@ -50,6 +62,24 @@
     "intermission-message": {
       "displayName": "No weekly trials active. Perfect time to grind your loadout.",
       "translationKey": "trial.intermission",
+      "category": "weekly"
+    },
+
+    "damage-bastions": {
+      "displayName": "Damage Bastions",
+      "translationKey": "trial.damage_bastions",
+      "category": "weekly"
+    },
+
+    "search-supply-drops": {
+      "displayName": "Search Supply Drops",
+      "translationKey": "trial.search_supply_drops",
+      "category": "weekly"
+    },
+
+    "damage-comets": {
+      "displayName": "Damage Comets",
+      "translationKey": "trial.damage_comets",
       "category": "weekly"
     },
 
