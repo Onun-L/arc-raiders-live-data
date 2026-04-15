@@ -53,8 +53,20 @@
         "damage-bastions",
         "search-supply-drops",
         "damage-comets"
-  ]
-}
+      ]
+    },
+      {
+      "weekId": "2026-W17",
+      "startsAtUTC": "2026-04-20T07:00:00Z",
+      "endsAtUTC": "2026-04-27T07:00:00Z",
+      "trials": [
+        "open-arc-probes",
+        "damage-spaceport-flying-enemies",
+        "open-traffic-tunnels",
+        "damage-fireflies",
+        "damage-queens-or-matriarchs"
+      ]
+    }
   ],
 
   "trials": {
@@ -62,6 +74,12 @@
     "intermission-message": {
       "displayName": "No weekly trials active. Perfect time to grind your loadout.",
       "translationKey": "trial.intermission",
+      "category": "weekly"
+    },
+
+    "damage-fireflies": {
+      "displayName": "Damage Fireflies",
+      "translationKey": "trial.damage_fireflies",
       "category": "weekly"
     },
 
