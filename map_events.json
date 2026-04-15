@@ -6,11 +6,11 @@
   },
 
   "meta": {
-    "version": "2026.03.30",
-    "updatedAt": "2026-03-30T20:00:00Z",
-    "note": "Rotation rebuilt from updated table provided on 2026-03-30.",
-    "mappingStart": "2026-03-06T21:00:00Z",
-    "mappingEnd": "2026-04-13T06:30:00Z"
+    "version": "2026.04.15",
+    "updatedAt": "2026-04-15T22:00:00Z",
+    "note": "Rotation rebuilt from updated table provided on 2026-04-15.",
+    "mappingStart": "2026-04-15T22:00:00Z",
+    "mappingEnd": "2026-04-20T06:30:00Z"
   },
 
   "eventTypes": {
@@ -44,135 +44,109 @@
 
     "dam-battleground": {
       "major": {
-        "5": "electromagnetic-storm",
-        "17": "electromagnetic-storm",
-
-        "9": "hurricane",
-        "21": "hurricane",
-
-        "1": "night-raid",
-        "13": "night-raid",
-
-        "3": "close-scrutiny",
-        "7": "close-scrutiny",
-        "11": "close-scrutiny",
-        "15": "close-scrutiny",
-        "19": "close-scrutiny",
-        "23": "close-scrutiny"
-      },
-      "minor": {
-        "0": "harvester",
-        "16": "harvester",
-
-        "7": "matriarch",
-        "13": "matriarch",
-        "18": "matriarch",
-
-        "4": "uncovered-caches",
-        "10": "uncovered-caches",
-        "21": "uncovered-caches"
-      }
-    },
-
-    "buried-city": {
-      "major": {
-        "2": "hurricane",
-        "10": "hurricane",
-        "18": "hurricane",
+        "2": "electromagnetic-storm",
+        "10": "electromagnetic-storm",
 
         "6": "night-raid",
         "14": "night-raid",
         "22": "night-raid",
 
-        "1": "close-scrutiny",
-        "5": "close-scrutiny",
-        "9": "close-scrutiny",
-        "13": "close-scrutiny",
-        "17": "close-scrutiny",
-        "21": "close-scrutiny"
+        "0": "close-scrutiny",
+        "4": "close-scrutiny"
       },
       "minor": {
-        "0": "bird-city",
-        "7": "bird-city",
-        "13": "bird-city",
-        "18": "bird-city",
+        "2": "harvester",
+        "8": "harvester",
+        "20": "harvester",
+        "22": "harvester",
 
-        "4": "uncovered-caches",
-        "10": "uncovered-caches",
-        "16": "uncovered-caches",
-        "21": "uncovered-caches"
+        "2": "matriarch",
+        "22": "matriarch",
+
+        "1": "lush-bloms",
+        "5": "lush-bloms"
+      }
+    },
+
+    "buried-city": {
+      "major": {
+        "7": "hurricane",
+        "15": "hurricane",
+        "23": "hurricane",
+
+        "3": "night-raid",
+        "11": "night-raid",
+
+        "2": "close-scrutiny",
+        "6": "close-scrutiny",
+        "22": "close-scrutiny"
+      },
+      "minor": {
+        "2": "bird-city",
+        "8": "bird-city",
+        "14": "bird-city",
+        "20": "bird-city",
+
+        "1": "lush-bloms",
+        "5": "lush-bloms"
       }
     },
 
     "the-spaceport": {
       "major": {
-        "11": "electromagnetic-storm",
-        "23": "electromagnetic-storm",
+        "0": "electromagnetic-storm",
+        "8": "electromagnetic-storm",
+        "16": "electromagnetic-storm",
 
-        "7": "hidden-bunker",
-        "19": "hidden-bunker",
+        "0": "hidden-bunker",
 
-        "3": "night-raid",
-        "15": "night-raid",
+        "4": "hurricane",
 
-        "0": "close-scrutiny",
-        "4": "close-scrutiny",
-        "8": "close-scrutiny",
-        "12": "close-scrutiny",
-        "16": "close-scrutiny",
-        "20": "close-scrutiny"
+        "1": "close-scrutiny",
+        "5": "close-scrutiny",
+        "9": "close-scrutiny",
+        "21": "close-scrutiny"
       },
       "minor": {
-        "23": "harvester",
+        "1": "harvester",
+        "10": "harvester",
+        "19": "harvester",
+        "21": "harvester",
 
-        "3": "launch-tower-loot",
-        "12": "launch-tower-loot",
-        "20": "launch-tower-loot",
+        "16": "launch-tower-loot",
 
-        "9": "matriarch",
-        "17": "matriarch",
+        "4": "matriarch",
+        "13": "matriarch",
 
-        "6": "uncovered-caches",
-        "15": "uncovered-caches"
+        "0": "lush-bloms"
       }
     },
 
     "blue-gate": {
       "major": {
-        "0": "locked-gate",
-        "4": "locked-gate",
-        "8": "locked-gate",
-        "12": "locked-gate",
-        "16": "locked-gate",
-        "20": "locked-gate",
+        "1": "electromagnetic-storm",
+        "5": "electromagnetic-storm",
+        "9": "electromagnetic-storm",
+        "13": "electromagnetic-storm",
+        "17": "electromagnetic-storm",
+        "21": "electromagnetic-storm",
 
-        "2": "close-scrutiny",
-        "6": "close-scrutiny",
-        "10": "close-scrutiny",
-        "14": "close-scrutiny",
-        "18": "close-scrutiny",
-        "22": "close-scrutiny"
+        "3": "close-scrutiny",
+        "7": "close-scrutiny",
+        "23": "close-scrutiny"
       },
-      "minor": {
-        "1": "harvester",
-        "8": "harvester",
-        "14": "harvester",
-
-        "5": "matriarch",
-        "22": "matriarch",
-
-        "11": "uncovered-caches",
-        "19": "uncovered-caches"
-      }
+      "minor": {}
     },
 
     "stella-montis": {
       "major": {
-        "0": "night-raid",
-        "5": "night-raid",
-        "9": "night-raid",
-        "13": "night-raid",
-        "20": "night-raid"
+        "1": "night-raid",
+        "3": "night-raid",
+        "7": "night-raid",
+        "11": "night-raid",
+        "15": "night-raid",
+        "19": "night-raid",
+        "21": "night-raid"
       },
       "minor": {}
     }
