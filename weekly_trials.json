@@ -3,18 +3,25 @@
     "version": "1.5-final",
     "updatedAt": "2026-04-20T07:00:00Z",
     "season": "Final",
-    "note": "This app is no longer actively maintained. There were not enough downloads to sustain ongoing updates. Thank you to everyone who supported the project."
+    "note": "This app is no longer actively maintained. Thank you to everyone who supported the project."
   },
 
-  "weeks": [],
+  "weeks": [
+    {
+      "weekId": "final",
+      "startsAtUTC": "2026-04-20T07:00:00Z",
+      "endsAtUTC": "2099-01-01T00:00:00Z",
+      "trials": [
+        "final-message"
+      ]
+    }
+  ],
 
   "trials": {
-
     "final-message": {
       "displayName": "This app is no longer actively maintained. There were not enough downloads to sustain it. Thank you to everyone who supported the project.",
       "translationKey": "trial.final_message",
-      "category": "info"
+      "category": "weekly"
     }
-
   }
 }
