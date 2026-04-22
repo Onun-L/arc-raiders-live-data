@@ -8,14 +8,66 @@
   "meta": {
     "version": "2026.04.20-final",
     "updatedAt": "2026-04-20T06:30:00Z",
-    "note": "This app is no longer actively maintained. Event data may become outdated over time.",
+    "note": "This app is no longer actively maintained. There were not enough downloads to sustain ongoing updates. Thank you to everyone who supported the project.",
     "mappingStart": "2026-04-20T06:30:00Z",
     "mappingEnd": "2099-01-01T00:00:00Z"
   },
 
-  "eventTypes": {},
+  "eventTypes": {
+    "maintenance-message": {
+      "displayName": "App no longer maintained — thank you for your support ❤️",
+      "translationKey": "maintenanceMessage",
+      "category": "major"
+    }
+  },
 
-  "maps": {},
+  "maps": {
+    "dam-battleground": { "displayName": "Dam Battleground" },
+    "buried-city": { "displayName": "Buried City" },
+    "the-spaceport": { "displayName": "The Spaceport" },
+    "blue-gate": { "displayName": "The Blue Gate" },
+    "stella-montis": { "displayName": "Stella Montis" }
+  },
 
-  "schedule": {}
+  "schedule": {
+    "dam-battleground": {
+      "major": {
+        "8": "maintenance-message",
+        "20": "maintenance-message"
+      },
+      "minor": {}
+    },
+
+    "buried-city": {
+      "major": {
+        "8": "maintenance-message",
+        "20": "maintenance-message"
+      },
+      "minor": {}
+    },
+
+    "the-spaceport": {
+      "major": {
+        "8": "maintenance-message",
+        "20": "maintenance-message"
+      },
+      "minor": {}
+    },
+
+    "blue-gate": {
+      "major": {
+        "8": "maintenance-message",
+        "20": "maintenance-message"
+      },
+      "minor": {}
+    },
+
+    "stella-montis": {
+      "major": {
+        "8": "maintenance-message",
+        "20": "maintenance-message"
+      },
+      "minor": {}
+    }
+  }
 }
