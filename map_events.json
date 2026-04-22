@@ -2,153 +2,20 @@
   "_readme": {
     "description": "Map events rotation schedule for ARC Raiders",
     "format": "Times are UTC hours (0-23). All events last exactly 1 hour.",
-    "note": "Rotation rebuilt from latest provided table."
+    "note": "App no longer actively maintained."
   },
 
   "meta": {
-    "version": "2026.04.15",
-    "updatedAt": "2026-04-15T22:00:00Z",
-    "note": "Rotation rebuilt from updated table provided on 2026-04-15.",
-    "mappingStart": "2026-04-15T22:00:00Z",
-    "mappingEnd": "2026-04-20T06:30:00Z"
+    "version": "2026.04.20-final",
+    "updatedAt": "2026-04-20T06:30:00Z",
+    "note": "This app is no longer actively maintained. Event data may become outdated over time.",
+    "mappingStart": "2026-04-20T06:30:00Z",
+    "mappingEnd": "2099-01-01T00:00:00Z"
   },
 
-  "eventTypes": {
-    "night-raid": { "displayName": "Night Raid", "translationKey": "nightRaid", "category": "major" },
-    "electromagnetic-storm": { "displayName": "Electromagnetic Storm", "translationKey": "electromagneticStorm", "category": "major" },
-    "locked-gate": { "displayName": "Locked Gate", "translationKey": "lockedGate", "category": "major" },
-    "cold-snap": { "displayName": "Cold Snap", "translationKey": "coldSnap", "category": "major" },
-    "hurricane": { "displayName": "Hurricane", "translationKey": "hurricane", "category": "major" },
-    "hidden-bunker": { "displayName": "Hidden Bunker", "translationKey": "hiddenBunker", "category": "major" },
-    "close-scrutiny": { "displayName": "Close Scrutiny", "translationKey": "closeScrutiny", "category": "major" },
+  "eventTypes": {},
 
-    "harvester": { "displayName": "Harvester", "translationKey": "harvester", "category": "minor" },
-    "husk-graveyard": { "displayName": "Husk Graveyard", "translationKey": "huskGraveyard", "category": "minor" },
-    "matriarch": { "displayName": "Matriarch", "translationKey": "matriarch", "category": "minor" },
-    "uncovered-caches": { "displayName": "Uncovered Caches", "translationKey": "uncoveredCaches", "category": "minor" },
-    "bird-city": { "displayName": "Bird City", "translationKey": "birdCity", "category": "minor" },
-    "launch-tower-loot": { "displayName": "Launch Tower Loot", "translationKey": "launchTowerLoot", "category": "minor" },
-    "prospecting-probes": { "displayName": "Prospecting Probes", "translationKey": "prospectingProbes", "category": "minor" },
-    "lush-bloms": { "displayName": "Lush Bloms", "translationKey": "lushBloms", "category": "minor" }
-  },
+  "maps": {},
 
-  "maps": {
-    "dam-battleground": { "displayName": "Dam Battleground" },
-    "buried-city": { "displayName": "Buried City" },
-    "the-spaceport": { "displayName": "The Spaceport" },
-    "blue-gate": { "displayName": "The Blue Gate" },
-    "stella-montis": { "displayName": "Stella Montis" }
-  },
-
-  "schedule": {
-
-    "dam-battleground": {
-      "major": {
-        "2": "electromagnetic-storm",
-        "10": "electromagnetic-storm",
-
-        "6": "night-raid",
-        "14": "night-raid",
-        "22": "night-raid",
-
-        "0": "close-scrutiny",
-        "4": "close-scrutiny"
-      },
-      "minor": {
-        "2": "harvester",
-        "8": "harvester",
-        "20": "harvester",
-        "22": "harvester",
-
-        "2": "matriarch",
-        "22": "matriarch",
-
-        "1": "lush-bloms",
-        "5": "lush-bloms"
-      }
-    },
-
-    "buried-city": {
-      "major": {
-        "7": "hurricane",
-        "15": "hurricane",
-        "23": "hurricane",
-
-        "3": "night-raid",
-        "11": "night-raid",
-
-        "2": "close-scrutiny",
-        "6": "close-scrutiny",
-        "22": "close-scrutiny"
-      },
-      "minor": {
-        "2": "bird-city",
-        "8": "bird-city",
-        "14": "bird-city",
-        "20": "bird-city",
-
-        "1": "lush-bloms",
-        "5": "lush-bloms"
-      }
-    },
-
-    "the-spaceport": {
-      "major": {
-        "0": "electromagnetic-storm",
-        "8": "electromagnetic-storm",
-        "16": "electromagnetic-storm",
-
-        "0": "hidden-bunker",
-
-        "4": "hurricane",
-
-        "1": "close-scrutiny",
-        "5": "close-scrutiny",
-        "9": "close-scrutiny",
-        "21": "close-scrutiny"
-      },
-      "minor": {
-        "1": "harvester",
-        "10": "harvester",
-        "19": "harvester",
-        "21": "harvester",
-
-        "16": "launch-tower-loot",
-
-        "4": "matriarch",
-        "13": "matriarch",
-
-        "0": "lush-bloms"
-      }
-    },
-
-    "blue-gate": {
-      "major": {
-        "1": "electromagnetic-storm",
-        "5": "electromagnetic-storm",
-        "9": "electromagnetic-storm",
-        "13": "electromagnetic-storm",
-        "17": "electromagnetic-storm",
-        "21": "electromagnetic-storm",
-
-        "3": "close-scrutiny",
-        "7": "close-scrutiny",
-        "23": "close-scrutiny"
-      },
-      "minor": {}
-    },
-
-    "stella-montis": {
-      "major": {
-        "1": "night-raid",
-        "3": "night-raid",
-        "7": "night-raid",
-        "11": "night-raid",
-        "15": "night-raid",
-        "19": "night-raid",
-        "21": "night-raid"
-      },
-      "minor": {}
-    }
-  }
+  "schedule": {}
 }
