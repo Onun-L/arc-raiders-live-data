@@ -10,7 +10,7 @@
     {
       "weekId": "final",
       "startsAtUTC": "2026-04-20T07:00:00Z",
-      "endsAtUTC": "2099-01-01T00:00:00Z",
+      "endsAtUTC": "2026-04-28T06:30:00Z",
       "trials": [
         "final-message"
       ]
